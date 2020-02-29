@@ -164,7 +164,7 @@ main p{
 	font-size: 32px;
 	font-weight: bold;
 }
-main a{
+.view{
 margin-top: -35px;
 	float: right;
 }
@@ -180,9 +180,41 @@ margin-top: -35px;
 
 
 }
+.card{
+	height: 413px;
+}
 
 .card img{
-	
+
 	width: 270px;
 	height: 349px;
+}
+.card img:hover{
+	border: 2px solid black;
+}
+.card ul{
+	color: black;
+	text-decoration: none;
+	margin-top: 15px;
+	padding: 0;
+	font-weight: 500;
+	font-size: 18px;
+
+}
+
+.card ul a{
+	color: black;
+	text-decoration: none;
+}
+.card ul li:last-child{
+	margin-top: 15px;
+
+
+}
+.name{
+	font-size: 18px;
+}
+.price{
+	font-weight: bold;
+	font-size: 16px;
 }
