@@ -10,9 +10,9 @@ body{
 }
 .container{
 	display: grid;
-	grid-template-columns: 60px 617px auto 118px;
+	grid-template-columns: 60px 511px auto 117px;
 	margin: 0 auto;
-	width: 1366px;
+	width: 1170px;
 }
 .logo{
 	text-align: center;
@@ -56,10 +56,11 @@ body{
 }
 
 .midmenu{
-	padding-left: 111px;
+	padding-left: 105px;
 	grid-column-start: 2;
 }
 .fp{
+	font-size: 18px;
 	color: #727A82;
 	margin-top: 192px;
 }
@@ -67,12 +68,13 @@ body{
 	font-family: 'Anton';
 	font-size: 128px;
 	text-transform: uppercase;
-	margin-top: -25px;
+	margin-top: -30px;
 	margin-bottom: 50px;
 
 }
 .btn{
-	padding: 24px 27px 24px 27px;
+	font-size: 16px;
+	
 	width: 219px;
 	height: 64px;
 	background-color: black;
@@ -82,6 +84,7 @@ body{
 	margin-bottom: 169px;
 }
 .photos{
+	margin-left: -50px;
 
 }
 
@@ -110,19 +113,25 @@ body{
 	font-weight: 500;
 }
 .rightmenu{
+	
 	display: flex;
 	flex-direction: column;
 	align-items: flex-end
 }
 .rightmenu a:first-child{
+	width: 20px;
+	height: 18px;
 	margin-top: 50px;	
 }
 .rightmenu a:nth-child(2){
+	width: 18px;
+	height: 18px;
 	margin-top: 35px;	
 
 }
 .rightmenu a:nth-child(3){
-	margin-top: 343px;
+
+	margin-top:391px;
 	font-size: 14px;
 }
 
@@ -130,4 +139,50 @@ body{
 	margin-top: 35px;	
 	font-size: 14px;
 	margin-bottom: 50
+}
+.rightmenu a img{
+margin-left: -12px;
+
+}
+main{
+	margin-top: 130px;
+}
+
+.container2{
+	display: grid;
+	grid-template-columns: 270px 30px 270px 30px 270px 30px 270px;
+	margin: 0 auto;
+	width: 1170px;
+}
+.container3{
+	margin: 0 auto;
+	width: 1170px;
+}
+
+main p{
+	margin: 0;
+	font-size: 32px;
+	font-weight: bold;
+}
+main a{
+margin-top: -35px;
+	float: right;
+}
+.top{
+	margin-bottom: 70px;
+}
+.top a{
+	text-decoration: none;
+	color: black;
+	font-weight: 500;
+	font-size: 18px;
+	border-bottom: 3px solid black;
+
+
+}
+
+.card img{
+	
+	width: 270px;
+	height: 349px;
 }
