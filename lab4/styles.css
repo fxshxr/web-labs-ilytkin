@@ -20,7 +20,7 @@ body{
 	padding-top: 25px;
 	padding-bottom: 25px;
 }
-.logo a{
+.toplogo{
 
 	font-size: 24px;
 	text-decoration: none;
@@ -74,7 +74,7 @@ body{
 }
 .btn{
 	font-size: 16px;
-	
+	padding: 0;
 	width: 219px;
 	height: 64px;
 	background-color: black;
@@ -144,6 +144,9 @@ body{
 margin-left: -12px;
 
 }
+.bold{
+	font-weight: bold;
+}
 main{
 	margin-top: 130px;
 }
@@ -162,11 +165,16 @@ main{
 main p{
 	margin: 0;
 	font-size: 32px;
-	font-weight: bold;
+	
 }
 .view{
-margin-top: -35px;
+	text-decoration: none;
+	margin-top: -35px;
 	float: right;
+	color: black;
+	font-size: 18px
+	font-weight: 500;
+	border-bottom: 3px solid black;
 }
 .top{
 	margin-bottom: 70px;
@@ -174,17 +182,14 @@ margin-top: -35px;
 .top a{
 	text-decoration: none;
 	color: black;
-	font-weight: 500;
-	font-size: 18px;
-	border-bottom: 3px solid black;
-
+	
 
 }
 .card{
 	height: 413px;
 }
 
-.card img{
+.card .cimg{
 
 	width: 270px;
 	height: 349px;
@@ -213,8 +218,96 @@ margin-top: -35px;
 }
 .name{
 	font-size: 18px;
+	margin-top: 25px;
 }
 .price{
 	font-weight: bold;
 	font-size: 16px;
+}
+
+.midbanner{
+	height: 370px;
+	margin-top: 135px;
+
+	
+}
+.diagmid{
+	transform: scaleX(-1);
+	float: right;
+	width: 470px;
+	height: 370px;
+
+}
+.boxontop{
+	position: relative;
+	top: -345px;
+	left: 700px;
+	height: 308px;
+	width: 400px;
+	background-color: #F1F2F4;
+}
+
+.sfc{
+	font-size: 18px;
+	color: #727A82;
+	font-weight: 400px;
+	padding: 70px 70px 20px;
+
+}
+.fall{
+	
+	margin-left: 70px;
+}
+.sec{
+	margin-top: 50px;
+	margin-left: 70px;
+}
+.last{
+	margin-top: 130px;
+}
+.lastcat{
+	margin-top: 70px;
+}
+
+footer{
+	margin-top: 130px;
+	background-color: black;
+}
+.footerlogo{
+	padding-top: 50px;
+	text-align: center;
+	width: 100%;
+	
+}
+.footerlogo a{
+	margin-top: 50px;
+	color: white;
+	font-size: 24px;
+	font-weight: 800;
+	text-decoration: none;
+
+}
+.footernav{
+	text-align: center;
+	width: 100%;
+	margin-top: 35px;
+	padding-bottom: 25px;
+
+}
+.footernav a{
+	color: white;
+	text-decoration: none;
+	font-weight: 500;
+	font-size: 18px;
+	padding-left: 35px;
+}
+.social{
+	text-align: center;
+	width: 100%;
+	margin-top: 35px;
+	padding-bottom: 25px;
+
+}
+.social a{
+	padding-left: 30px;
 }
