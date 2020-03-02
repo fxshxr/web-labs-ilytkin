@@ -404,9 +404,60 @@ footer{
 	top: -402px;
 	left: 130px;
 }
-.filter{
+
+.submenu{
+	overflow: hidden;
+
+}
+
+.show{
+	text-align: center;
+	margin-top: 75px;
+	font-size: 18px;
+}
+
+.load{
+	font-weight: bold;
+	padding: 0;
+	margin: 40px auto 130px 485px;
+	border: none;
+	font-size: 16px;
+	color: white;
+	background-color: #151C22;
+	width: 200px;
+	height: 64px;
+}
+.progress{
+	margin-top: 10px;
+	margin-left: 485px;
+	background-color: grey;
+	height: 2px;
+	width: 199px;
+}
+.innerpr{
+	background-color: black;
+	width: 20%;
+	height: 100%;
+}
+/*.filter{
+	margin-right: 26px;
+	margin-top: 40px;
 	width: 243px;
 	height: 50px;
-	border: 2px solid black;
+	border: 3px solid black;
 	float: right;
+	margin-bottom: 40px;
+	overflow: hidden;
+}*/
+
+.filter{
+	position: relative;
+	margin-right: 26px;
+	margin-top: 40px;
+	width: 243px;
+	height: 50px;
+	border: 3px solid black;
+	float: right;
+	margin-bottom: 40px;
+	overflow: hidden;
 }
