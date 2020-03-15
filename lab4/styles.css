@@ -461,3 +461,63 @@ footer{
 	margin-bottom: 40px;
 	overflow: hidden;
 }
+
+.container4{
+	display: grid;
+
+	margin: 0 auto;
+	width: 1170px;
+
+}
+.topbar{
+
+}
+.overall{
+	margin-top: -650px;
+	float: right;
+	width: 49%;
+	height: 668px;
+	background-color: #F1F2F4;
+}
+.top2{
+
+	margin-bottom: 40px;
+}
+.left{
+	margin-top: 30px;
+}
+.als{
+	margin-top: 400px;
+}
+.arr{
+	
+	margin-bottom: 274px;
+}
+.bot{
+
+	margin-top: 70px;
+}
+.big1{
+	padding-left: 64px;
+	padding-right: 64px;
+}
+
+@media (max-width : 768px) {
+.container{
+	display: grid;
+	grid-template-columns: 45px 200px auto 45px;
+	margin: 0 auto;
+	width: 768px;
+}
+.girl{
+	width: 264px;
+	height: 319px;
+margin-top: 150px;}
+.diag{
+	position: relative;
+	width: 141px;
+	height: 104px;
+	top: -270px;
+	left: 123px;
+}
+}
