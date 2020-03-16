@@ -503,6 +503,10 @@ footer{
 }
 
 @media (max-width : 768px) {
+.headmain{
+	height: 527px;
+}
+
 .container{
 	display: grid;
 	grid-template-columns: 45px 200px auto 45px;
