@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Lab 4</title>
+	<link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    
+            
+</head>
+<body>
+	  <nav id="top">
+	  	<div class="container">
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo">Лыткин Игорь 191-322 Лаб 4</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="vue.html">Vue.JS</a></li>
+        
+      </ul>
+    </div>
+    </div>
+  </nav>
+	<div class="container">
+
+		<h1>
+			Что такое БЭМ?
+		</h1>
+		<p class="card-panel teal lighten-5">
+			БЭМ (Блок, Элемент, Модификатор) — компонентный подход к веб-разработке. В его основе лежит принцип разделения интерфейса на независимые блоки. Он позволяет легко и быстро разрабатывать интерфейсы любой сложности и повторно использовать существующий код, избегая «Copy-Paste».
+		</p>
+		<img src="1.png"  class="card-panel right responsive-img" alt="">
+		<h2>
+			Основные понятия
+		</h2>
+		<p class="card-panel deep-purple lighten-5" style="width: 60%">
+			«Блок», «элемент» и «модификатор» — основные термины БЭМ. Это необходимые и достаточные понятия для описания интерфейса любой сложности. 
+		</p>
+		<h3>
+			Блок
+		</h3>
+		<p class="card-panel deep-purple lighten-5">
+			Блок — это независимый интерфейсный компонент. Блок может быть простым или составным (содержать другие блоки). При создании блока нужно обеспечивать возможность его использования в любом месте web-страницы, а также повторения в том же самом месте страницы (родительском элементе). Блок должен включать в себя всю реализацию, необходимую для представления части интерфейса, которую он выражает. 
+		</p>
+		<h3>Элемент</h3>
+		<p class="card-panel deep-purple lighten-5">
+			Элемент — это составная часть блока. Элементы контекстно-зависимы: они имеют смысл только в рамках своего блока. Элемент — не обязательная составляющая блока, небольшие блоки обходятся без элементов. 
+		</p>
+		<h3>Модификатор</h3>
+		<p class="card-panel deep-purple lighten-5">
+
+			Модификатор — это свойство блока или элемента, задающее изменения в их внешнем виде или поведении. Модификатор может быть булевым (например, button_big) или парой ключ-значение (например, menu_type_bullet, menu_type_numbers). У блока или элемента может быть несколько модификаторов одновременно. 
+		</p>
+			<div class="totop">
+				<a class="btn-floating btn-large waves-effect waves-light red totop" href="#top"><i class="expand_less" style="font-size: 10px;">on top</i></a>
+			</div>
+				
+     </div>
+
+
+     
+
+
+
+
+
+
+
+
+
+
+
+<script type="module">
+  import Vue from 'https://cdn.jsdelivr.net/npm/vue@2.6.11/dist/vue.esm.browser.js'
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+	
+</body>
+</html>
