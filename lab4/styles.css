@@ -95,6 +95,7 @@ body{
 	height: 176px;
 }
 .girl{
+	max-width: 100%;
 	position: relative;
 	z-index: 1;
 	height: 517px;
