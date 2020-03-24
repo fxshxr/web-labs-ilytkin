@@ -730,6 +730,15 @@ margin-top:0px;
 }
 
 }
+.cartimg{
+margin-right:47px;
+height:18px;
+ width: 18px; 
+}
+.searchimg{
+	height:18px;
+	 width: 18px; 
+}
 
 @media (max-width: 320px){
 	.banimg{
@@ -780,4 +789,160 @@ margin-top:0px;
 }
 
 
+}
+.catalogmenu{
+	text-align: center;
+}
+
+.catlogo{
+	font-size: 24px;
+	color: black;
+	font-weight: 800;
+	text-decoration: none;
+
+}
+.toplogo{
+}
+
+.catmenu{
+	top: 32px;
+ position: relative;
+}
+.catmenu ul li{
+	display: inline-block;
+	margin: 0;
+}
+.catmenu ul{
+	margin: 0;
+}
+.catmenu ul li a{
+	padding-right: 35px;
+	text-decoration: none;
+	color: black;
+	font-size: 16px;
+	font-weight: 500;
+}
+.cataloglogo{
+	display: flex;
+	justify-content: center;
+
+}
+
+.cataloglogo a{
+	font-size: 24px;
+	margin: 0px auto 22px;
+	color: black;
+	text-decoration: none;
+	font-weight: 800;
+}
+
+.burger{
+	visibility: collapse;
+}
+.scart{
+	margin: -55px;
+	float: right;
+}
+.scart li{
+	padding-right: 35px;
+	display: inline-block;
+
+}
+.scart ul{
+	margin: 0;
+}
+@media (max-width: 320px){
+	.burger{
+		position: relative;
+		top: 32px;
+		left: 15px;
+		visibility: visible;
+	}
+	.catmenu{
+		display: none;
+	}
+	.scart ul li a img{
+		margin-top: 10px;
+		height: 16px;
+		width: 16px;
+
+	}
+	.cartimg{
+margin-right:30px;
+margin-left: -20px;
+height:18px;
+ width: 16px; 
+}
+.searchimg{
+	height:16px;
+	 width: 16px; 
+
+}
+}
+
+.catbanner{
+	background-color: #F1F2F4;
+	height: 260px;
+	width: 100%;
+
+}
+.bantext{
+	width: 357px;
+	margin-top: 73px;
+	margin-left: 141px;
+}
+.bantext ul li{
+	display: inline;
+	color: #727A82;
+	font-size: 18px;
+
+
+}
+.bantext ul{
+	margin-top: 0;
+}
+
+.bantext a{
+
+	color: #727A82;
+	text-decoration: none;
+}
+
+.bantext .selected{
+	color: black;
+}
+.bantext p{
+	padding-left: 40px;
+	font-weight: bold;
+	font-size: 32px;
+
+
+}
+.banphoto{
+	margin-left: -30px;
+}
+.catdiag{
+	position: relative;
+	z-index: 0;
+}
+
+.wsw{
+	position: relative;
+	z-index: 1;
+	left: -49px;
+	top: -0px;
+}
+.catdiag:first-child{
+top: 0;
+left: 100px;
+}
+.catdiag:last-child{
+	top: -263px;
+	left: 240px;
+}
+
+@media (max-width: 768px){
+ .bantext{
+ 	margin-left: 0;
+ }
 }
