@@ -946,3 +946,19 @@ left: 100px;
  	margin-left: 0;
  }
 }
+
+@media print { 
+	@page :first { margin: 1cm; /* Отступы для первой страницы */ }
+@page :left { margin: 1cm 3cm 1cm 1.5cm;}
+p { page-break-inside: avoid; }
+
+p { widows: 4; }
+
+
+p { orphans: 3;}
+a[href]:after {
+content: " (" attr(href) ")";
+}
+
+}
+}

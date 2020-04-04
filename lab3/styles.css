@@ -13,3 +13,13 @@ bottom: 20px;
 		font-size: 100px;
 	}
 }
+
+#carousel{
+	margin-top: 60px;
+	width: 600px;
+}
+#carousel img{
+	height: 200px;
+	margin-top: 50px;
+
+}
