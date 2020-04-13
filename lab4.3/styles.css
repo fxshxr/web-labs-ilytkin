@@ -26,7 +26,11 @@ h1{
 	font-weight: 800;
 }
 @media (max-width: 320px) {
+	*{
+		transition: 0.4s;
+	}
 	.logo a{
+		transition: 0.4s;
 		margin: 20px auto 20px;
 	}
 	
@@ -38,6 +42,9 @@ h1{
 	width: 1170px;
 }
 @media (max-width: 768px) {
+	*{
+		transition: 0.4s;
+	}
 	.container{
 		width: 768px;
 	}
@@ -249,19 +256,23 @@ header{
 }
 @media (max-width: 320px) {
 .row{
+	transition: 0.4s;
 	display: none;
 }
 #diag{
+	transition: 0.4s;
 	margin-left: 19px;
 	height: 80px;
 	width: 109px;
 }
 #diag1{
+	transition: 0.4s;
 	margin-left: 160px;
 	height: 80px;
 	width: 109px;
 }
 #girl{
+	transition: 0.4s;
 	margin-top: -64px;
 	width: 202px;
 	height:249px;
@@ -310,24 +321,30 @@ header{
 
 @media (max-width: 768px) {
 .rightframe{
+	transition: 0.4s;
 	margin-left: -150px;
 }
 .cart {
+	transition: 0.4s;
 	padding-top: 50px;
 	flex-direction: row-reverse;
 }
 .cart a:first-child{
+	transition: 0.4s;
 	padding-left: 35px;
 }
 .social{
+	transition: 0.4s;
 	margin-right: -33px;
 	margin-left: 0;
 	margin-top: 325px;
 	}
 .social a{
+	transition: 0.4s;
 	padding-right: 35px;
 }
 .social a:last-child{
+	transition: 0.4s;
 	margin-left: -25px;
 }
 
