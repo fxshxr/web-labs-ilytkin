@@ -1,0 +1,54 @@
+$font:    Helvetica, sans-serif;
+$color: #000;
+$colormap:(
+	red: red,
+	green:	green);
+@each $colormap, $color in $colormap{
+	.bgc-#{$colormap}{
+		background-color: $color;
+	}
+}
+
+@import "st2.scss";
+
+@mixin bordered(){
+	border: 2px solid black;
+	border-radius: 2px;
+
+}
+.makeblue{
+	color: blue;
+}
+
+	.container{
+		width: 960px;
+		margin: 0 auto;
+		h1{
+			font-size: 20*2px;
+		}
+		p{
+			font-size: 20px;
+			&:hover{
+				@include bordered();
+			}
+		}
+		span{
+			@extend .makeblue;
+			&:hover{
+				color: red;
+			}
+
+		}
+		a{
+
+			font-size: 40+2px;
+	
+			color: darkpink;
+			&:hover{
+				text-decoration: none;
+				color:mix(#ad4038, #0000ff, 80)  ;
+				transition: 0.2-0s;
+			}
+		}
+	}
+
